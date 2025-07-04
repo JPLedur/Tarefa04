@@ -25,9 +25,10 @@ body{
     grid-area: fotin;
     display: grid;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     padding: 20px;
     background-color: #B7B7DF;
+    border-radius: 10px;
 }
 
 .sobre{
@@ -47,6 +48,29 @@ body{
     color: #000046;
     font-size: 60px;
     font-style: bold;
+}
+
+.resume{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: #000046;
+    padding: 10px;
+    border-radius: 1em;
+}
+.projects{
+    font-size: 20px;
+    font-weight: bold;
+    color:#000046;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header{
@@ -86,9 +110,32 @@ h4{
     font-weight: 300;
 }
 
+nav{
+    font-size: 20px;
+}
+
+main nav ul{
+    display: grid;
+    list-style: square;
+}
+
+p {
+    font-size: 25px;
+}
+
 footer{
+    font-size: 15px;
     grid-area: footer;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #000046;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
