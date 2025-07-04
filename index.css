@@ -6,6 +6,7 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    color: black;
 }
 
 .container{
@@ -42,6 +43,12 @@ body{
 
 }
 
+.hello {
+    color: #000046;
+    font-size: 60px;
+    font-style: bold;
+}
+
 header{
     grid-area: header;
     display: flex;
@@ -72,6 +79,11 @@ div nav ul li{
 main{
     grid-area: main;
     border: 1px solid red;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 300;
 }
 
 footer{
